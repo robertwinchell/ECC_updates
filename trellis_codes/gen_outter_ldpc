@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Example of how an LDPC code can be encoded using using sparse,
+# dense, and mixed representations of the generator matrix.  The dense
+# and mixed representations are based on the same set of message bits
+# as the sparse method with minprod heuristic.  This allows the correctness 
+# of these methods to be checked by verifying that they all produce the same 
+# result when encoding random messages.  The results are also checked by 
+# 'verify'.
+#
+# A ($1,$2) LDPC code with 3 checks per bit is used for the test.
+
+set -e  # Stop if an error occurs
+set -v  # Echo commands as they are read
+
+./make-ldpc outter_ldpc_code.pchk $1 $2 $3 evenboth 1 
+./print-pchk -d outter_ldpc_code.pchk > outter_ldpc_code.txt
+rm -f *.pchk
+

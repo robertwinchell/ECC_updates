@@ -1,0 +1,17 @@
+Performance test - rectangular graphs over the NSC
+Encoder file : ./random_graph.txt
+k = 4
+16 vertices per columns
+7 input symbols 
+8 output bits per input symbol
+Embedded pseudorandom sequences
+p_d = 0.1; p_i = 0.2; p_t = 0.2; p_s = 0.1
+
+10 codewords; Bit error rate = 0.22
+20 codewords; Bit error rate = 0.22
+30 codewords; Bit error rate = 0.2333333333
+40 codewords; Bit error rate = 0.245
+50 codewords; Bit error rate = 0.244
+60 codewords; Bit error rate = 0.255
+70 codewords; Bit error rate = 0.27
+80 codewords; Bit error rate = 0.26125

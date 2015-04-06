@@ -1,0 +1,20 @@
+Performance test - rectangular graphs over the NSC
+Encoder file : ./outter_ldpc_graph.txt
+k = 4
+16 vertices per columns
+7 input symbols 
+8 output bits per input symbol
+No embedded pseudorandom sequences
+p_d = 0.3; p_i = 0.2; p_t = 0.2; p_s = 0.2
+
+10 codewords; Bit error rate = 0.39
+20 codewords; Bit error rate = 0.465
+30 codewords; Bit error rate = 0.4466666667
+40 codewords; Bit error rate = 0.4475
+50 codewords; Bit error rate = 0.452
+60 codewords; Bit error rate = 0.46
+70 codewords; Bit error rate = 0.4642857143
+80 codewords; Bit error rate = 0.47
+90 codewords; Bit error rate = 0.4666666667
+100 codewords; Bit error rate = 0.458
+110 codewords; Bit error rate = 0.4545454545

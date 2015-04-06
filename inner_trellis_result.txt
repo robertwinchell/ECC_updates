@@ -1,0 +1,19 @@
+Performance test - rectangular graphs over the NSC
+Encoder file : ./inner_trellis_graph.txt
+k = 4
+16 vertices per columns
+7 input symbols 
+8 output bits per input symbol
+No embedded pseudorandom sequences
+p_d = 0.3; p_i = 0.2; p_t = 0.2; p_s = 0.2
+
+10 codewords; Bit error rate = 0.42
+20 codewords; Bit error rate = 0.405
+30 codewords; Bit error rate = 0.4033333333
+40 codewords; Bit error rate = 0.3975
+50 codewords; Bit error rate = 0.412
+60 codewords; Bit error rate = 0.4033333333
+70 codewords; Bit error rate = 0.41
+80 codewords; Bit error rate = 0.41
+90 codewords; Bit error rate = 0.4166666667
+100 codewords; Bit error rate = 0.425
